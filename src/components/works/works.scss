@@ -1,0 +1,115 @@
+.work{
+   
+    background-color: rgba(209, 41, 74, 0.842);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .leftArrow{
+        width: 60px;
+        height: 60px;
+        position: absolute;
+      //  left: 300px;
+        left: 25%;
+        color: wheat;
+        cursor: pointer;
+    }
+    .rightArrow{
+        width: 60px;
+        height: 60px;
+        position: absolute;
+      //  right: 300px;
+      right: 25%;
+        cursor: pointer;
+        color: wheat;
+    }
+
+
+    .workcontainer{
+          height: 350px;
+          display: flex;
+          position: absolute;
+          left: 0;
+
+          .workcard{
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+            .workitem{
+               // width: 700px;
+               width: 36%;
+                height: 100%;
+                background-color: wheat;
+                border-radius: 10px 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .wleft{
+                    flex: 5;
+                    height: 90%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .leftcontainer{
+                        width: 90%;
+                        height: 90%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        .imagecontainer{
+                            width: 40px;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: coral;
+                            border-radius: 50%;
+                            img{
+                                width: 15px;
+                                height: 25px;
+                                
+                            }
+                           
+                        }
+                        h2{
+                            font-size: 24px;
+                            font-weight: 900;
+                        }
+                        p{
+                            font-size: 13px;
+                        }
+                        span{
+                            font-size: 24px;
+                            font: 900;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .wright{
+                    flex: 7;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    img{
+                        width: 80%;
+                        height: 84%;
+                        border-radius: 20px 40px 10px 40px;
+                        transform: rotate(-10deg);
+                    }
+                }
+            }
+            
+            
+          }
+    }
+
+  
+
+}
+    
